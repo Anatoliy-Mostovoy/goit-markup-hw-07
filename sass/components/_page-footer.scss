@@ -3,7 +3,7 @@
     align-items: baseline;
     justify-content: space-between;
 
-    &__info-logo{
+      &__info-logo{
         margin-bottom: 20px;
       }
       
@@ -26,6 +26,7 @@
         color: $footer;
         @include transit(color);
       }
+
       &__link:hover,
       &__link:focus{
           color: $acent;
@@ -34,6 +35,16 @@
       &__social {
         margin-right: 93px;
       }
+
+      &__social--iconcolor{
+        fill: $tc-white;
+      } 
+      
+      &__social--iconbackcolor{
+        background-color: $bgc-footer-link;
+      }
+      
+      
       &__text{
         margin-bottom: 20px;
         font-weight: 700;
@@ -42,6 +53,8 @@
         text-transform: uppercase;
         color: $tc-white;
       }
+      
+      
        
     //footer form
       
@@ -90,6 +103,6 @@
         margin-right: 10px;
       }
       
-  }
+}
   
   

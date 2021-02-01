@@ -469,13 +469,16 @@ footer {
 }
 
 .page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #ececec;
 }
 
 .page-header__nav-list {
@@ -907,6 +910,10 @@ footer {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.advantages {
+  padding: 94px 0 0;
+}
+
 .advantages__title--hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -1070,10 +1077,6 @@ footer {
 .social-icon__link:hover, .social-icon__link:focus {
   background-color: #188ce8;
   fill: #ffffff;
-}
-
-.social-icon__link--backcolor {
-  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .our-clients__list {
@@ -1302,6 +1305,14 @@ footer {
 
 .footer__social {
   margin-right: 93px;
+}
+
+.footer__social--iconcolor {
+  fill: #ffffff;
+}
+
+.footer__social--iconbackcolor {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .footer__text {

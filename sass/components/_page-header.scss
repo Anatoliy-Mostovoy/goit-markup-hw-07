@@ -1,8 +1,11 @@
 .page-header {
+  border-bottom: 1px solid #ececec;
+  
+  &__flex{
     display: flex;
     align-items: center;
-    border-bottom: 1px solid #ececec;
-
+  }
+    
  //navigation
   &__nav-list  {
     display: flex;
@@ -95,6 +98,5 @@
     color: $acent;
     fill: $acent;
   }
-
 }
  
